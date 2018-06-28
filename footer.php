@@ -50,7 +50,7 @@
         ?>
 
         <div class="site-info-copyright <?php if (($show_social && !$social_url_empty) || ($show_menu && has_nav_menu('menu-2'))){?>have-site-info-nav<?php }?>">
-          "Copyright © 2018-<?php echo date("Y"); ?> jxltom"
+            Copyright © 2018-<?php echo date("Y"); ?> Jxltom
         </div>
     </div><!-- .site-info -->
   </footer><!-- #colophon -->
