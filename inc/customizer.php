@@ -42,7 +42,7 @@ function doo_customize_register( $wp_customize ) {
   $wp_customize->add_setting(
     'theme_color',
     array(
-    'default' => '#c51e3a',
+    'default' => '#767676',
     'sanitize_callback' => 'sanitize_hex_color_no_hash',
     'sanitize_js_callback' => 'maybe_hash_hex_color',
     )
