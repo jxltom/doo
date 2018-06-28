@@ -50,13 +50,7 @@
         ?>
 
         <div class="site-info-copyright <?php if (($show_social && !$social_url_empty) || ($show_menu && has_nav_menu('menu-2'))){?>have-site-info-nav<?php }?>">
-          <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'doo' ) ); ?>"><?php
-            printf( esc_html__( 'Proudly powered by %s', 'doo' ), 'WordPress' );
-          ?></a>
-          <span class="sep"> | </span>
-          <?php
-            printf( esc_html__( 'Theme: %1$s by %2$s.', 'doo' ), 'Doo', '<a href="http://themevs.com/">ThemeVS</a>' );
-          ?>
+          "Copyright © 2018-<?php echo date("Y"); ?> jxltom"
         </div>
     </div><!-- .site-info -->
   </footer><!-- #colophon -->
